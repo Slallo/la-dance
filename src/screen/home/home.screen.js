@@ -1,5 +1,10 @@
+import { BackgroundWrapper, CTA } from "./home.style";
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <BackgroundWrapper>
+      <CTA>Home</CTA>
+    </BackgroundWrapper>
+  );
 };
 
 export default Home;

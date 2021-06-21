@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
+import { NavBarWrapper, NavBarLink, NavBarButton } from "./nav-bar.style";
 
 const NavBar = () => {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/corsi">Corsi</Link>
-    </nav>
+    <NavBarWrapper>
+      <NavBarLink to="/">Home</NavBarLink>
+      <NavBarLink to="/corsi">Corsi</NavBarLink>
+      <NavBarLink to="/insegnanti">Insegnanti</NavBarLink>
+      <NavBarButton to="/contatti">Contatti</NavBarButton>
+    </NavBarWrapper>
   );
 };
 
