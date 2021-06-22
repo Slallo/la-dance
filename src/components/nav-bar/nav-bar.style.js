@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 export const NavBarWrapper = styled.nav`
   width: 100%;
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 80px;
-  background-color: transparent;
+  transition: all 1s ease;
+  background-color: ${(p) => (p.isTransparent ? "transparent" : "#d98163")};
   padding-right: 5vw;
   box-sizing: border-box;
 `;
@@ -22,9 +23,14 @@ export const NavBarLink = styled(Link)`
   margin: 0 18px;
   display: flex;
   align-items: center;
+  text-shadow: 0px 0px 3px black;
+  text-decoration: ${(p) =>
+    p.selected && (p.isTransparent ? "none" : "underline")};
+  background: ${(p) => (p.selected ? "#d98163" : "none")};
+  padding: 10px 20px;
 `;
 
 export const NavBarButton = styled(NavBarLink)`
-  background: #d98163;
+  background: ${(p) => (p.selected ? "#d98163" : "none")};
   padding: 10px 20px;
 `;

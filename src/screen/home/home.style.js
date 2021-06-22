@@ -2,7 +2,7 @@ import styled from "styled-components";
 import img from "../../assets/home-background.png";
 
 export const BackgroundWrapper = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-position: center center;
   background-image: url(${img});
