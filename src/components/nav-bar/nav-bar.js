@@ -4,7 +4,6 @@ import { useLocation } from "react-router";
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   let location = useLocation();
-  console.log(location);
   useEffect(() => {
     window.onscroll = () => {
       setIsScrolled(window.pageYOffset > 0 ? true : false);

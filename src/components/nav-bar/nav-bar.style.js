@@ -9,7 +9,8 @@ export const NavBarWrapper = styled.nav`
   align-items: center;
   height: 80px;
   transition: all 1s ease;
-  background-color: ${(p) => (p.isTransparent ? "transparent" : "#d98163")};
+  background-color: ${(p) =>
+    p.isTransparent ? "transparent" : "rgba(217,129,99,0.8)"};
   padding-right: 5vw;
   box-sizing: border-box;
 `;
@@ -26,7 +27,7 @@ export const NavBarLink = styled(Link)`
   text-shadow: 0px 0px 3px black;
   text-decoration: ${(p) =>
     p.selected && (p.isTransparent ? "none" : "underline")};
-  background: ${(p) => (p.selected ? "#d98163" : "none")};
+  background: ${(p) => (p.selected && p.isTransparent ? "#d98163" : "none")};
   padding: 10px 20px;
 `;
 

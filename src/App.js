@@ -4,23 +4,35 @@ import Home from "./screen/home/home.screen";
 import Courses from "./screen/corsi/corsi.screen";
 import NavBar from "./components/nav-bar/nav-bar";
 import PageWrapper from "./components/page-wrapper/page-wrapper";
+import { useEffect, useState } from "react";
 
 function App() {
-  return (
-    <Router>
-      <NavBar />
-      <PageWrapper onScroll={() => console.log("OOOo")}>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/corsi">
-            <Courses />
-          </Route>
-        </Switch>
-      </PageWrapper>
-    </Router>
-  );
+  const [loadedFont, setLoadedFont] = useState(false);
+  useEffect(() => {
+    document.fonts.ready.then(function () {
+      setLoadedFont(true);
+      console.log("Fonts loaded");
+    });
+  }, []);
+  if (loadedFont)
+    return (
+      <Router>
+        <NavBar />
+        <PageWrapper onScroll={() => console.log("OOOo")}>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/corsi">
+              <Courses />
+            </Route>
+          </Switch>
+        </PageWrapper>
+      </Router>
+    );
+  else {
+    return null;
+  }
 }
 
 export default App;
