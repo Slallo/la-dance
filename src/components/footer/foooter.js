@@ -2,6 +2,7 @@ import {
   FooterWrapper,
   FooterRow,
   FooterSection,
+  FooterSectionLefted,
   FooterTitle,
   SocialIconsWrapper,
   FooterLogo,
@@ -28,14 +29,14 @@ const Footer = () => {
             <Phone />
           </SocialIconsWrapper>
         </FooterSection>
-        <FooterSection>
+        <FooterSectionLefted>
           <FooterLogo />
           <FooterInfo>
             <strong>Battipaglia</strong> 
             <br /> Piazza Ferrovia nr 12 <br /> Tel 0828210155 <br />
             Via Ugo Foscolo 34/36 <br /> Tel 320 7086606 - 338 1064846
           </FooterInfo>
-        </FooterSection>
+        </FooterSectionLefted>
       </FooterRow>
       <FooterRow style={{ justifyContent: "space-around", marginTop: 50 }}>
         <FooterLink>Trasparenza</FooterLink>

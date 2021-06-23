@@ -46,6 +46,13 @@ export const FooterSection = styled.div`
   min-width: 350px;
 `;
 
+export const FooterSectionLefted = styled(FooterSection)`
+  align-items: flex-start;
+  @media only screen and (max-width: 716px) {
+    align-items: center;
+  }
+`;
+
 export const SocialIconsWrapper = styled.div`
   width: 90%;
   max-width: 350px;
@@ -107,7 +114,11 @@ export const FooterLogo = styled(Logo)`
   width: 180px;
 `;
 
-export const FooterInfo = styled.div``;
+export const FooterInfo = styled.div`
+  @media only screen and (max-width: 716px) {
+    text-align: center;
+  }
+`;
 
 export const FooterLink = styled(Link)`
   color: #5f5f5f;
