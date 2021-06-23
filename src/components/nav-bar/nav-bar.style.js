@@ -10,7 +10,7 @@ export const NavBarWrapper = styled.nav`
   height: 80px;
   transition: all 1s ease;
   background-color: ${(p) =>
-    p.isTransparent ? "transparent" : "rgba(217,129,99,0.8)"};
+    p.isTransparent ? "transparent" : "rgba(217,129,99,0.9)"};
   padding-right: 5vw;
   box-sizing: border-box;
   font-size: 21px;
