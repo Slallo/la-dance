@@ -13,25 +13,37 @@ export const NavBarWrapper = styled.nav`
     p.isTransparent ? "transparent" : "rgba(217,129,99,0.8)"};
   padding-right: 5vw;
   box-sizing: border-box;
+  font-size: 21px;
+  @media only screen and (max-width: 600px) {
+    font-size: 16px;
+    padding: 0 10px;
+    justify-content: center;
+  }
 `;
 
 export const NavBarLink = styled(Link)`
   color: white;
   text-decoration: none;
   outline: 0;
-  font-size: 21px;
   font-weight: bold;
   margin: 0 18px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-shadow: 0px 0px 3px black;
   text-decoration: ${(p) =>
     p.selected && (p.isTransparent ? "none" : "underline")};
   background: ${(p) => (p.selected && p.isTransparent ? "#d98163" : "none")};
-  padding: 10px 20px;
+  height: 50%;
+  padding: 0 10px;
+  max-width: 120px;
+  @media only screen and (max-width: 600px) {
+    margin: 0 10px;
+    padding: 0 5px;
+  }
 `;
 
 export const NavBarButton = styled(NavBarLink)`
   background: ${(p) => (p.selected ? "#d98163" : "none")};
-  padding: 10px 20px;
 `;
