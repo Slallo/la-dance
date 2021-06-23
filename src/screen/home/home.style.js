@@ -112,10 +112,15 @@ export const CoursesWrapper = styled.div`
 `;
 
 export const CourseCard = styled.div`
-  flex: 1;
-  min-width: 30%;
+  width: 30%;
   margin: 10px;
   cursor: pointer;
+  @media only screen and (max-width: 600px) {
+    min-width: 100%;
+  }
+  @media only screen and (max-width: 900px) {
+    width: 45%;
+  }
 `;
 
 export const CourseImage = styled.div`
