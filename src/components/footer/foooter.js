@@ -7,12 +7,12 @@ import {
   FooterLogo,
   FooterInfo,
   FooterLink,
+  Facebook,
+  Twitter,
+  Phone,
+  Linkedin,
+  Youtube,
 } from "./footer.style";
-import { ReactComponent as Twitter } from "../../assets/twitter.svg";
-import { ReactComponent as Facebook } from "../../assets/facebook.svg";
-import { ReactComponent as Linkedin } from "../../assets/linkedin.svg";
-import { ReactComponent as Phone } from "../../assets/phone.svg";
-import { ReactComponent as Youtube } from "../../assets/youtube.svg";
 
 const Footer = () => {
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
           <FooterLogo />
           <FooterInfo>
             <strong>Battipaglia</strong> 
-            <br /> Piazza Ferrovia nr 12  Tel 0828210155 <br />
+            <br /> Piazza Ferrovia nr 12 <br /> Tel 0828210155 <br />
             Via Ugo Foscolo 34/36 <br /> Tel 320 7086606 - 338 1064846
           </FooterInfo>
         </FooterSection>
