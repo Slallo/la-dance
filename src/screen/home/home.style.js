@@ -73,12 +73,87 @@ export const StorySection = styled.div`
 
 export const StoryText = styled.p`
   margin-top: 60px;
+  padding-right: 20px;
   @media only screen and (max-width: 600px) {
     margin-top: 20px;
+    padding-right: 0;
   }
 `;
 
 export const StoryImage = styled.img`
   max-width: 100%;
   flex: 1;
+`;
+
+export const CoursesSection = styled.div`
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 30px;
+  box-sizing: border-box;
+  flex-flow: column wrap;
+  @media only screen and (max-width: 600px) {
+    padding: 50px 20px;
+  }
+`;
+
+export const SectionSubtitle = styled.p`
+  text-align: center;
+  max-width: 80%;
+`;
+
+export const CoursesWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+`;
+
+export const CourseCard = styled.div`
+  flex: 1;
+  min-width: 344px;
+  margin: 10px;
+  cursor: pointer;
+`;
+
+export const CourseImage = styled.div`
+  height: 235px;
+  background: ${(p) => (p.background ? `url(${p.background})` : "black")};
+  background-size: cover;
+`;
+
+export const CourseName = styled.p`
+  font-weight: bold;
+`;
+
+export const EventsSection = styled(CoursesSection)`
+  width: 100%;
+  padding: 0;
+`;
+
+export const EventsImage = styled.img`
+  width: 100%;
+  height: 100%;
+`;
+
+export const EventsRow = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 25px 0;
+`;
+
+export const PastEventsWrapper = styled.ol`
+  flex: 1;
+  min-width: 300px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 0;
+`;
+
+export const Event = styled.li`
+  list-style: circle;
+  margin: 10px 0;
 `;

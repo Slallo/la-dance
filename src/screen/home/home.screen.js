@@ -9,9 +9,28 @@ import {
   StoryTextWrapper,
   StoryText,
   StoryImage,
+  CoursesSection,
+  SectionSubtitle,
+  CoursesWrapper,
+  CourseCard,
+  CourseImage,
+  CourseName,
+  EventsSection,
+  EventsImage,
+  EventsRow,
+  PastEventsWrapper,
+  Event,
 } from "./home.style";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import story from "../../assets/story_section_img.png";
+import propedeutica from "../../assets/propedeutica.png";
+import classico from "../../assets/classico.png";
+import contemporaneo from "../../assets/contemporaneo.png";
+import moderno from "../../assets/moderno.png";
+import hiphop from "../../assets/hiphop.png";
+import videodance from "../../assets/videodance.png";
+import events from "../../assets/events_section_image.png";
+
 const Home = () => {
   return (
     <>
@@ -50,6 +69,81 @@ const Home = () => {
         </StoryTextWrapper>
         <StoryImage src={story}></StoryImage>
       </StorySection>
+      <CoursesSection>
+        <SectionTitle>Corsi</SectionTitle>
+        <SectionSubtitle>
+          “Quando non puoi danzare tu, fai danzare la tua anima…”
+        </SectionSubtitle>
+        <CoursesWrapper>
+          <CourseCard>
+            <CourseImage background={propedeutica} />
+            <CourseName>Propedeutica</CourseName>
+          </CourseCard>
+          <CourseCard>
+            <CourseImage background={classico} />
+            <CourseName>Repertorio Classico</CourseName>
+          </CourseCard>
+          <CourseCard>
+            <CourseImage background={contemporaneo} />
+            <CourseName>Contemporanea</CourseName>
+          </CourseCard>
+          <CourseCard>
+            <CourseImage background={moderno} />
+            <CourseName>Moderno</CourseName>
+          </CourseCard>
+          <CourseCard>
+            <CourseImage background={hiphop} />
+            <CourseName>Hip Hop</CourseName>
+          </CourseCard>
+          <CourseCard>
+            <CourseImage background={videodance} />
+            <CourseName>Video Dance</CourseName>
+          </CourseCard>
+        </CoursesWrapper>
+      </CoursesSection>
+      <EventsSection>
+        <SectionTitle>Eventi</SectionTitle>
+        <SectionSubtitle>
+          Alcune delle partecipazioni più importanti avvenute nei 50 anni di
+          storia di “La Dance”
+        </SectionSubtitle>
+        <EventsImage src={events} />
+        <EventsRow>
+          <PastEventsWrapper>
+            <Event>
+              Spettacoli-Notte Magica presentato da Pippo Baudo prodotto dalla
+              RAI
+            </Event>
+            <Event>
+              La Notte delle Streghe programma RAI con Oreste Lionello
+            </Event>
+            <Event>Uno Mattina e Telethon</Event>
+            <Event>Carramba che Sorpresa</Event>
+            <Event>Partecipazioni per il Giffoni Film Festival</Event>
+            <Event>
+              Esibizione ai teatri Parioli ed Orione per Una Sera a Teatro
+            </Event>
+            <Event>
+              Celebrazione al teatro Bellini di Napoli: Cento Anni di Totò
+            </Event>
+          </PastEventsWrapper>
+          <PastEventsWrapper>
+            <Event>
+              La Gatta Cenerentola registrati per la televisione tedesca
+            </Event>
+            <Event>Partecipazione alla manifestazione Gusta Minori; </Event>
+            <Event>
+              Vincitrice al concorso “Scarpetta d’oro” a Verona presentato da
+              Eva Grimaldi.
+            </Event>
+            <Event> Spettacolo di Balletti ad Agropoli per “THEATRON”;</Event>
+            <Event>
+              Vincitrice al concorso “Gran Prix De La Dance” Caivano (NA)
+            </Event>
+            <Event>Vincitrice al concorso “Talenti in Danza” a Salerno</Event>
+          </PastEventsWrapper>
+        </EventsRow>
+      </EventsSection>
     </>
   );
 };
