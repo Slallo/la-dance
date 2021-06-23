@@ -113,7 +113,7 @@ export const CoursesWrapper = styled.div`
 
 export const CourseCard = styled.div`
   flex: 1;
-  min-width: 344px;
+  min-width: 30%;
   margin: 10px;
   cursor: pointer;
 `;
