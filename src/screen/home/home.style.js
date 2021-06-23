@@ -44,3 +44,41 @@ export const CTAButton = styled.div`
   cursor: pointer;
   max-width: 45%;
 `;
+
+export const SectionTitle = styled.span`
+  font-size: 45px;
+  border-bottom: 3px solid #f5ccbd;
+  color: #3d3d3d;
+  width: fit-content;
+  font-weight: bold;
+`;
+
+export const StoryTextWrapper = styled.div`
+  flex: 1;
+  min-width: 40%;
+`;
+
+export const StorySection = styled.div`
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 30px;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  @media only screen and (max-width: 600px) {
+    padding: 50px 20px;
+  }
+`;
+
+export const StoryText = styled.p`
+  margin-top: 60px;
+  @media only screen and (max-width: 600px) {
+    margin-top: 20px;
+  }
+`;
+
+export const StoryImage = styled.img`
+  max-width: 100%;
+  flex: 1;
+`;
