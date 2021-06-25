@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background_image from "../../assets/courses_background_image.png";
+import background_image from "../../assets/teachers_background_image.png";
 
 export const PageWrapper = styled.div`
   display: flex;

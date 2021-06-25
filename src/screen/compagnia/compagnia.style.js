@@ -34,6 +34,7 @@ export const PageWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
+  width: 100%;
 `;
 
 export const Description = styled.p`
