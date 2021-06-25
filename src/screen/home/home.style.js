@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import img from "../../assets/home-background.png";
-
+import { Link } from "react-router-dom";
 export const BackgroundWrapper = styled.div`
   width: 100%;
   height: 100vh;
@@ -33,11 +33,12 @@ export const CTARow = styled.div`
   align-items: center;
 `;
 
-export const CTAButton = styled.div`
+export const CTAButton = styled(Link)`
   text-align: center;
   background: ${(p) => (p.full ? "#d98163" : "none")};
   outline: none;
   border: 3px solid #d98163;
+  text-decoration: none;
   color: white;
   padding: 10px 15px;
   font-weight: bold;

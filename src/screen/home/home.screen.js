@@ -43,7 +43,7 @@ const Home = () => {
           </CTAText>
           <CTARow>
             <CTAButton full="true">Formazione</CTAButton>
-            <CTAButton>Compagnia</CTAButton>
+            <CTAButton to="/compagnia">Compagnia</CTAButton>
           </CTARow>
         </CTA>
       </BackgroundWrapper>
