@@ -10,6 +10,12 @@ export const BackgroundWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 600px) {
+    height: 30vh;
+  }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    height: 50vh;
+  }
 `;
 
 export const PageTitle = styled.span`
@@ -18,6 +24,9 @@ export const PageTitle = styled.span`
   color: white;
   width: fit-content;
   font-weight: bold;
+  @media only screen and (max-width: 600px) {
+    font-size: 21px;
+  }
 `;
 
 export const PageWrapper = styled.div`
