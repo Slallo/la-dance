@@ -9,6 +9,10 @@ const NavBar = () => {
       setIsScrolled(window.pageYOffset > 0 ? true : false);
     };
   }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <NavBarWrapper isTransparent={!isScrolled}>
       <NavBarLink
