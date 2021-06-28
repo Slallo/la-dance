@@ -32,13 +32,7 @@ const NavBar = () => {
       >
         Insegnanti
       </NavBarLink>
-      <NavBarButton
-        isTransparent={!isScrolled}
-        selected={location.pathname === "/contatti"}
-        to="/contatti"
-      >
-        Contatti
-      </NavBarButton>
+      <NavBarButton href="#footer">Contatti</NavBarButton>
     </NavBarWrapper>
   );
 };

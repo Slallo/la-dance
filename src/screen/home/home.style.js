@@ -23,6 +23,7 @@ export const CTA = styled.div`
 
 export const CTAText = styled.p`
   text-align: center;
+  text-shadow: 0px 0px 3px black;
 `;
 
 export const CTARow = styled.div`
@@ -153,7 +154,7 @@ export const EventsRow = styled.div`
 
 export const PastEventsWrapper = styled.ol`
   flex: 1;
-  min-width: 300px;
+  min-width: 250px;
   padding: 0 10px;
   box-sizing: border-box;
   margin: 0;

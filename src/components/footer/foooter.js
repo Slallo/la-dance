@@ -17,7 +17,7 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="footer">
       <FooterRow>
         <FooterSection>
           <FooterTitle>Info & Contatti</FooterTitle>

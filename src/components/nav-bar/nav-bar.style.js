@@ -44,6 +44,24 @@ export const NavBarLink = styled(Link)`
   }
 `;
 
-export const NavBarButton = styled(NavBarLink)`
-  background: ${(p) => (p.selected ? "#d98163" : "none")};
+export const NavBarButton = styled.a`
+  color: white;
+  text-decoration: none;
+  outline: 0;
+  font-weight: bold;
+  margin: 0 18px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 3px black;
+  text-decoration: none;
+  background: none;
+  height: 50%;
+  padding: 0 10px;
+  max-width: 120px;
+  @media only screen and (max-width: 600px) {
+    margin: 0 10px;
+    padding: 0 5px;
+  }
 `;
