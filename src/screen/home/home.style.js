@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import img from "../../assets/home-background.png";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 
 export const BackgroundWrapper = styled.div`
   width: 100%;
@@ -117,7 +116,7 @@ export const CoursesWrapper = styled.div`
   align-items: center;
 `;
 
-export const CourseCard = styled(HashLink)`
+export const CourseCard = styled(Link)`
   width: 30%;
   margin: 10px;
   cursor: pointer;
