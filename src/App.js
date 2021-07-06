@@ -6,6 +6,7 @@ import NavBar from "./components/nav-bar/nav-bar";
 import Footer from "./components/footer/foooter";
 import Company from "./screen/compagnia/compagnia.screen";
 import Teachers from "./screen/insegnanti/insegnanti.screen";
+import Transparency from "./screen/transparency/transparency.screen";
 import PageWrapper from "./components/page-wrapper/page-wrapper";
 import { useEffect, useState } from "react";
 
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path="/insegnanti">
               <Teachers />
+            </Route>
+            <Route path="/transparency">
+              <Transparency />
             </Route>
           </Switch>
         </PageWrapper>

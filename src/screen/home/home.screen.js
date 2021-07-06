@@ -75,27 +75,27 @@ const Home = () => {
           “Quando non puoi danzare tu, fai danzare la tua anima…”
         </SectionSubtitle>
         <CoursesWrapper>
-          <CourseCard>
+          <CourseCard to="/corsi#propedeutica">
             <CourseImage background={propedeutica} />
             <CourseName>Propedeutica</CourseName>
           </CourseCard>
-          <CourseCard>
+          <CourseCard to="/corsi#classica">
             <CourseImage background={classico} />
             <CourseName>Repertorio Classico</CourseName>
           </CourseCard>
-          <CourseCard>
+          <CourseCard to="/corsi#contemporaneo">
             <CourseImage background={contemporaneo} />
             <CourseName>Contemporanea</CourseName>
           </CourseCard>
-          <CourseCard>
+          <CourseCard to="/corsi#moderno">
             <CourseImage background={moderno} />
             <CourseName>Moderno</CourseName>
           </CourseCard>
-          <CourseCard>
+          <CourseCard to="/corsi#hiphop">
             <CourseImage background={hiphop} />
             <CourseName>Hip Hop</CourseName>
           </CourseCard>
-          <CourseCard>
+          <CourseCard to="/corsi#videodance">
             <CourseImage background={videodance} />
             <CourseName>Video Dance</CourseName>
           </CourseCard>

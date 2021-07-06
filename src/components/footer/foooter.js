@@ -39,7 +39,7 @@ const Footer = () => {
         </FooterSectionLefted>
       </FooterRow>
       <FooterRow style={{ justifyContent: "space-around", marginTop: 50 }}>
-        <FooterLink>Trasparenza</FooterLink>
+        <FooterLink to="/transparency">Trasparenza</FooterLink>
         <FooterLink>Privacy Policy</FooterLink>
       </FooterRow>
     </FooterWrapper>

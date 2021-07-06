@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import img from "../../assets/home-background.png";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 export const BackgroundWrapper = styled.div`
   width: 100%;
   height: 100vh;
@@ -24,6 +26,7 @@ export const CTA = styled.div`
 export const CTAText = styled.p`
   text-align: center;
   text-shadow: 0px 0px 3px black;
+  margin: 15px 0;
 `;
 
 export const CTARow = styled.div`
@@ -103,6 +106,7 @@ export const CoursesSection = styled.div`
 export const SectionSubtitle = styled.p`
   text-align: center;
   max-width: 80%;
+  margin: 15px 0;
 `;
 
 export const CoursesWrapper = styled.div`
@@ -113,7 +117,7 @@ export const CoursesWrapper = styled.div`
   align-items: center;
 `;
 
-export const CourseCard = styled.div`
+export const CourseCard = styled(HashLink)`
   width: 30%;
   margin: 10px;
   cursor: pointer;
@@ -123,16 +127,20 @@ export const CourseCard = styled.div`
   @media only screen and (max-width: 900px) {
     width: 45%;
   }
+  text-decoration: none;
 `;
 
 export const CourseImage = styled.div`
   height: 235px;
   background: ${(p) => (p.background ? `url(${p.background})` : "black")};
   background-size: cover;
+  margin-bottom: 15px;
 `;
 
 export const CourseName = styled.p`
   font-weight: bold;
+  color: #3d3d3d;
+  margin-bottom: 0;
 `;
 
 export const EventsSection = styled(CoursesSection)`
