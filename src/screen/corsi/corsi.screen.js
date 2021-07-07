@@ -8,6 +8,7 @@ import {
   CourseTitle,
   CourseInfo,
 } from "./corsi.style";
+import { BottomImage } from "../insegnanti/insegnanti.style";
 import { LinearGradient } from "../home/home.style";
 import propedeutica from "../../assets/propedeutica_full.png";
 import moderno from "../../assets/moderno_full.png";
@@ -15,6 +16,7 @@ import classico from "../../assets/classica_full.png";
 import contemporaneo from "../../assets/contemporaneo_full.png";
 import hiphop from "../../assets/hiphop_full.png";
 import videodance from "../../assets/videodance_full.png";
+import courses_bottom_image from "../../assets/courses_bottom_image.png";
 
 const Courses = () => {
   return (
@@ -118,6 +120,7 @@ const Courses = () => {
           </CourseInfo>
           <CourseImage src={videodance} />
         </CourseWrapper>
+        <BottomImage src={courses_bottom_image} />
       </LinearGradient>
     </PageWrapper>
   );
