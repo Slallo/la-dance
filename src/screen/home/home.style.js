@@ -38,6 +38,9 @@ export const CTAText = styled.p`
   text-align: center;
   text-shadow: 0px 0px 3px black;
   margin: 15px 0;
+  @media only screen and (max-width: 500px) {
+    width: 70%;
+  }
 `;
 
 export const CTARow = styled.div`
