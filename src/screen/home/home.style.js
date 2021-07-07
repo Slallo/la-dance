@@ -91,7 +91,7 @@ export const StoryText = styled.p`
   margin-top: 60px;
   padding-right: 20px;
   @media only screen and (max-width: 600px) {
-    margin-top: 20px;
+    margin: 20px 0;
     padding-right: 0;
   }
 `;

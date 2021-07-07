@@ -104,47 +104,62 @@ const Home = () => {
           </CoursesWrapper>
         </CoursesSection>
         <EventsSection>
-          <SectionTitle>Eventi</SectionTitle>
+          <SectionTitle style={{ borderColor: "white" }}>Eventi</SectionTitle>
           <SectionSubtitle>
             Alcune delle partecipazioni più importanti avvenute nei 50 anni di
             storia di “La Dance”
           </SectionSubtitle>
           <EventsImage src={events} />
-          <EventsRow>
-            <PastEventsWrapper>
-              <Event>
-                Spettacoli-Notte Magica presentato da Pippo Baudo prodotto dalla
-                RAI
-              </Event>
-              <Event>
-                La Notte delle Streghe programma RAI con Oreste Lionello
-              </Event>
-              <Event>Uno Mattina e Telethon</Event>
-              <Event>Carramba che Sorpresa</Event>
-              <Event>Partecipazioni per il Giffoni Film Festival</Event>
-              <Event>
-                Esibizione ai teatri Parioli ed Orione per Una Sera a Teatro
-              </Event>
-              <Event>
-                Celebrazione al teatro Bellini di Napoli: Cento Anni di Totò
-              </Event>
-            </PastEventsWrapper>
-            <PastEventsWrapper>
-              <Event>
-                La Gatta Cenerentola registrati per la televisione tedesca
-              </Event>
-              <Event>Partecipazione alla manifestazione Gusta Minori; </Event>
-              <Event>
-                Vincitrice al concorso “Scarpetta d’oro” a Verona presentato da
-                Eva Grimaldi.
-              </Event>
-              <Event> Spettacolo di Balletti ad Agropoli per “THEATRON”;</Event>
-              <Event>
-                Vincitrice al concorso “Gran Prix De La Dance” Caivano (NA)
-              </Event>
-              <Event>Vincitrice al concorso “Talenti in Danza” a Salerno</Event>
-            </PastEventsWrapper>
-          </EventsRow>
+          <div
+            style={{
+              background: "white",
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <EventsRow>
+              <PastEventsWrapper>
+                <Event>
+                  Spettacoli-Notte Magica presentato da Pippo Baudo prodotto
+                  dalla RAI
+                </Event>
+                <Event>
+                  La Notte delle Streghe programma RAI con Oreste Lionello
+                </Event>
+                <Event>Uno Mattina e Telethon</Event>
+                <Event>Carramba che Sorpresa</Event>
+                <Event>Partecipazioni per il Giffoni Film Festival</Event>
+                <Event>
+                  Esibizione ai teatri Parioli ed Orione per Una Sera a Teatro
+                </Event>
+                <Event>
+                  Celebrazione al teatro Bellini di Napoli: Cento Anni di Totò
+                </Event>
+              </PastEventsWrapper>
+              <PastEventsWrapper>
+                <Event>
+                  La Gatta Cenerentola registrati per la televisione tedesca
+                </Event>
+                <Event>Partecipazione alla manifestazione Gusta Minori; </Event>
+                <Event>
+                  Vincitrice al concorso “Scarpetta d’oro” a Verona presentato
+                  da Eva Grimaldi.
+                </Event>
+                <Event>
+                  {" "}
+                  Spettacolo di Balletti ad Agropoli per “THEATRON”;
+                </Event>
+                <Event>
+                  Vincitrice al concorso “Gran Prix De La Dance” Caivano (NA)
+                </Event>
+                <Event>
+                  Vincitrice al concorso “Talenti in Danza” a Salerno
+                </Event>
+              </PastEventsWrapper>
+            </EventsRow>
+          </div>
         </EventsSection>
       </LinearGradient>
     </>
