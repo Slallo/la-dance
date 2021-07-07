@@ -13,6 +13,18 @@ export const BackgroundWrapper = styled.div`
   justify-content: center;
 `;
 
+export const LinearGradient = styled.div`
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(243, 219, 211, 1) 80%
+  );
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+`;
+
 export const CTA = styled.div`
   max-width: 80%;
   color: white;
