@@ -41,6 +41,7 @@ export const NavBarLink = styled(Link)`
   @media only screen and (max-width: 600px) {
     margin: 0 10px;
     padding: 0 5px;
+    height: 40%;
   }
 `;
 
