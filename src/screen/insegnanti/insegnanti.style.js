@@ -122,9 +122,8 @@ export const GuestDescription = styled.p`
 export const GuestName = styled.p`
   font-size: 26px;
   font-weight: bold;
-  margin: 21px 0;
   @media only screen and (max-width: 600px) {
-    font-size: 30px;
+    font-size: 27px;
   }
 `;
 
