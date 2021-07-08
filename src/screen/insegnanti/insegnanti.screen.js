@@ -22,7 +22,7 @@ import atzewi from "../../assets/atzewi.png";
 import sica from "../../assets/sica.png";
 import goodson from "../../assets/goodson.png";
 import scardacchi from "../../assets/scardacchi.png";
-import marchant from "../../assets/marchant.png";
+import marchant from "../../assets/marchant.jpg";
 import liguori from "../../assets/liguori.png";
 import teacher_bottom_image from "../../assets/teacher_section_image.png";
 const Teachers = () => {
