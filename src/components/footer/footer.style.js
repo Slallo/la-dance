@@ -125,3 +125,11 @@ export const FooterLink = styled(Link)`
   font-weight: bold;
   font-size: 16px;
 `;
+
+export const FooterAnchor = styled.a`
+  height: 48px;
+  display: contents;
+  @media only screen and (max-width: 600px) {
+    height: 32px;
+  }
+`;

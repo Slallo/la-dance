@@ -13,6 +13,7 @@ import {
   Phone,
   Linkedin,
   Youtube,
+  FooterAnchor,
 } from "./footer.style";
 
 const Footer = () => {
@@ -26,14 +27,16 @@ const Footer = () => {
             <Twitter />
             <Linkedin />
             <Youtube />
-            <Phone />
+            <FooterAnchor href="tel: 0828210155">
+              <Phone />
+            </FooterAnchor>
           </SocialIconsWrapper>
         </FooterSection>
         <FooterSectionLefted>
           <FooterLogo />
           <FooterInfo>
             <strong>Battipaglia</strong> 
-            <br /> Piazza Ferrovia nr 12 <br /> Tel 0828210155 <br />
+            <br /> Piazza Ferrovia nr 12 <br />
             Via Ugo Foscolo 34/36 <br /> Tel 320 7086606 - 338 1064846
           </FooterInfo>
         </FooterSectionLefted>

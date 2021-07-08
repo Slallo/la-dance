@@ -36,3 +36,52 @@ export const PageTitle = styled.span`
     font-size: 21px;
   }
 `;
+
+export const ContentWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  width: 80%;
+  margin: 80px 0;
+`;
+
+export const Section = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+`;
+
+export const Divider = styled.div`
+  width: 100%;
+  height: 5px;
+  background-color: #ebebeb;
+  margin: 35px 0;
+`;
+
+export const List = styled.ul`
+  width: 100%;
+  list-style: inside;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 20px;
+`;
+
+export const ListElement = styled.li`
+  font-weight: normal;
+`;
+
+export const CurriculumLink = styled.a`
+  color: #3d3d3d;
+  font-weight: bold;
+`;
+
+export const LogoWrapper = styled.div`
+  display: flex;
+  width: 100%;
+  background: white;
+  justify-content: center;
+  padding-top: 30px;
+`;
+
+export const Logo = styled.img``;
