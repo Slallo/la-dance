@@ -96,7 +96,9 @@ const Teachers = () => {
           </TeacherInfo>
           <TeacherImage src={decamillis} />
         </TeacherWrapper>
-        <PageTitle style={{ color: "#3D3D3D", marginBottom: 50 }}>
+        <PageTitle
+          style={{ color: "#3D3D3D", marginBottom: 50, marginTop: 20 }}
+        >
           Maestri ospiti
         </PageTitle>
         <GuestsWrapper>
