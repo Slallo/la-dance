@@ -7,6 +7,10 @@ import {
   CourseDescription,
   CourseTitle,
   CourseInfo,
+  InsightsWrapper,
+  Insight,
+  InsightTitle,
+  InsightText,
 } from "./corsi.style";
 import { BottomImage } from "../insegnanti/insegnanti.style";
 import { LinearGradient } from "../home/home.style";
@@ -120,6 +124,46 @@ const Courses = () => {
           </CourseInfo>
           <CourseImage src={videodance} />
         </CourseWrapper>
+        <PageTitle style={{ color: "#3D3D3D", borderColor: "white" }}>
+          Approfondimenti
+        </PageTitle>
+        <InsightsWrapper>
+          <Insight>
+            <InsightTitle>Esami</InsightTitle>
+            <InsightText>
+              L’anno scolastico termina con gli esami di fine corso, alla
+              presenza di commissari esterni alla scuola e altamente
+              qualificati.
+            </InsightText>
+          </Insight>
+          <Insight>
+            <InsightTitle>Diploma</InsightTitle>
+            <InsightText>
+              Alla fine degli anni di studio si consegue il diploma di danzatore
+              dopo aver superato tutti gli esami con esito positivo.
+              <br /> Tale documentazione può essere presentata dai danzatori sia
+              per le audizioni che affronteranno, sia per corsi di
+              specializzazione dove occorre dimostrare il proprio curriculum di
+              studi.
+            </InsightText>
+          </Insight>
+          <Insight>
+            <InsightTitle>Saggio</InsightTitle>
+            <InsightText>
+              Lo spettacolo di fine anno ha tre principali funzioni.
+              <br />
+              <br /> <strong>La prima</strong> è quella di presentare un
+              programma didattico-artistico della scuola. <br /> <br />
+              <strong>La seconda</strong> è quella di dare agli allievi,
+              attraverso l’esperienza sulla scena, l’opportunità di esprimere in
+              forma artistica tutto quanto hanno appreso durante l’anno, con la
+              chance di rivelare il loro talento.
+              <br /> <br /> <strong>La terza</strong> di diffondere la
+              conoscenza della danza in tutti i suoi linguaggi sia al pubblico
+              tradizionale che a quello più giovane.
+            </InsightText>
+          </Insight>
+        </InsightsWrapper>
         <BottomImage src={courses_bottom_image} />
       </LinearGradient>
     </PageWrapper>

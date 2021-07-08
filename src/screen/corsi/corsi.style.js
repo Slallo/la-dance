@@ -43,7 +43,7 @@ export const CourseWrapper = styled.div`
   justify-content: space-between;
   flex-flow: ${(p) => (p.isReverse ? "row-reverse" : "row")} nowrap;
   width: 80%;
-  margin: 80px 0;
+  margin: 50px 0;
   @media only screen and (max-width: 1368px) {
     flex-flow: ${(p) => (p.isReverse ? "column" : "column")} nowrap;
     margin: 30px 0;
@@ -83,3 +83,31 @@ export const CourseDescription = styled.p`
     margin-bottom: 21px;
   }
 `;
+
+export const InsightsWrapper = styled.div`
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 80%;
+  @media only screen and (max-width: 1270px) {
+    flex-flow: column nowrap;
+  }
+`;
+
+export const Insight = styled.div`
+  width: 30%;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  @media only screen and (max-width: 1270px) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+`;
+
+export const InsightTitle = styled.h2``;
+
+export const InsightText = styled.p``;

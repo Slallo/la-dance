@@ -129,5 +129,5 @@ export const GuestName = styled.p`
 
 export const BottomImage = styled.img`
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
 `;
