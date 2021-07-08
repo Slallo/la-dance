@@ -21,6 +21,7 @@ import {
   EventsRow,
   PastEventsWrapper,
   Event,
+  SeeMore,
 } from "./home.style";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import story from "../../assets/story_section_img.png";
@@ -102,6 +103,7 @@ const Home = () => {
               <CourseName>Video Dance</CourseName>
             </CourseCard>
           </CoursesWrapper>
+          <SeeMore to="/corsi">Scopri di più</SeeMore>
         </CoursesSection>
         <EventsSection>
           <SectionTitle style={{ borderColor: "white" }}>Eventi</SectionTitle>
@@ -148,7 +150,6 @@ const Home = () => {
                   da Eva Grimaldi.
                 </Event>
                 <Event>
-                  {" "}
                   Spettacolo di Balletti ad Agropoli per “THEATRON”;
                 </Event>
                 <Event>

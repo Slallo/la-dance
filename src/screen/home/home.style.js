@@ -109,7 +109,7 @@ export const CoursesSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 30px;
+  padding: 70px 30px;
   box-sizing: border-box;
   flex-flow: column wrap;
   @media only screen and (max-width: 600px) {
@@ -185,4 +185,18 @@ export const PastEventsWrapper = styled.ol`
 export const Event = styled.li`
   list-style: circle;
   margin: 10px 0;
+`;
+
+export const SeeMore = styled(Link)`
+  text-align: center;
+  background: white;
+  outline: none;
+  color: #3e3e3e;
+  border: 2px solid #3e3e3e;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  max-width: 45%;
+  margin-top: 50px;
 `;
