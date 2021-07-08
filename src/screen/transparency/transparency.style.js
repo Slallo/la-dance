@@ -84,4 +84,8 @@ export const LogoWrapper = styled.div`
   padding-top: 30px;
 `;
 
-export const Logo = styled.img``;
+export const Logo = styled.img`
+  @media only screen and (max-width: 500px) {
+    width: 80%;
+  }
+`;
