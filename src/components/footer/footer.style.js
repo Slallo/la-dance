@@ -16,10 +16,10 @@ export const FooterWrapper = styled.footer`
   flex-flow: column wrap;
   color: #3d3d3d;
   background: radial-gradient(
-    at bottom,
+    at top,
     #f3dbd3,
     rgba(217, 129, 99, 0.5),
-    rgba(217, 129, 99, 0.6)
+    rgba(217, 129, 99, 0.8)
   );
   padding: 30px 0;
 `;

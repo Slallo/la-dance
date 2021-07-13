@@ -44,7 +44,9 @@ const Home = () => {
             e <strong>Caterina Ceravolo</strong>
           </CTAText>
           <CTARow>
-            <CTAButton full="true">Formazione</CTAButton>
+            <CTAButton full="true" to="/corsi">
+              Formazione
+            </CTAButton>
             <CTAButton to="/compagnia">Compagnia</CTAButton>
           </CTARow>
         </CTA>
