@@ -69,8 +69,6 @@ export const SocialIconsWrapper = styled.div`
 `;
 
 export const Instagram = styled(instagram)`
-  width: 48px;
-  height: 48px;
   @media only screen and (max-width: 600px) {
     width: 32px;
   }

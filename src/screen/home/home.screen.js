@@ -66,7 +66,7 @@ const Home = () => {
               <br />
               L’Associazione “La Dance” è funzionante con presa d’atto del
               Ministero della Pubblica Istruzione dal 1983. La direzione
-              Artistica è a cura di Maria Vittoria Maglione e Caterina Ceravolo.{" "}
+              Artistica è a cura di Maria Vittoria Maglione e Caterina Ceravolo.
               <br /> <br />
               L’associazione attraverso spettacoli e rappresentazioni si
               prefigge lo scopo di divulgare l’arte della danza.
