@@ -69,7 +69,9 @@ const NavBar = () => {
         >
           Insegnanti
         </NavBarLink>
-        <NavBarButton href="#footer">Contatti</NavBarButton>
+        <NavBarButton onClick={() => handleButtonClick()}>
+          Contatti
+        </NavBarButton>
       </NavBarWrapper>
       {isOpen && <Modal onClick={() => setIsOpen(false)}></Modal>}
       <MobileMenu isOpen={isOpen}>

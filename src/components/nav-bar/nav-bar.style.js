@@ -55,7 +55,7 @@ export const NavBarLink = styled(Link)`
   }
 `;
 
-export const NavBarButton = styled.a`
+export const NavBarButton = styled.div`
   color: white;
   text-decoration: none;
   outline: 0;
@@ -70,6 +70,7 @@ export const NavBarButton = styled.a`
   padding: 0 10px;
   background: #d98163;
   max-width: 120px;
+  cursor: pointer;
   @media only screen and (max-width: 600px) {
     display: none;
   }

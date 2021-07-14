@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
-import { ReactComponent as twitter } from "../../assets/twitter.svg";
+import { ReactComponent as instagram } from "../../assets/instagram.svg";
 import { ReactComponent as facebook } from "../../assets/facebook.svg";
 import { ReactComponent as linkedin } from "../../assets/linkedin.svg";
 import { ReactComponent as phone } from "../../assets/phone.svg";
@@ -68,7 +68,8 @@ export const SocialIconsWrapper = styled.div`
   }
 `;
 
-export const Twitter = styled(twitter)`
+export const Instagram = styled(instagram)`
+  width: 48px;
   @media only screen and (max-width: 600px) {
     width: 32px;
   }

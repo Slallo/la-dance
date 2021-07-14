@@ -9,7 +9,7 @@ import {
   FooterInfo,
   FooterLink,
   Facebook,
-  Twitter,
+  Instagram,
   Phone,
   Linkedin,
   Youtube,
@@ -23,8 +23,21 @@ const Footer = () => {
         <FooterSection>
           <FooterTitle>Info & Contatti</FooterTitle>
           <SocialIconsWrapper>
-            <Facebook />
-            <Twitter />
+            <FooterAnchor
+              href="https://www.facebook.com/ladance.mariavittoriamaglione/"
+              noreferral
+              target="_blank"
+            >
+              <Facebook />
+            </FooterAnchor>
+
+            <FooterAnchor
+              href="https://www.instagram.com/ladance__/"
+              noreferral
+              target="_blank"
+            >
+              <Instagram />
+            </FooterAnchor>
             <Linkedin />
             <Youtube />
             <FooterAnchor href="tel: 0828210155">
