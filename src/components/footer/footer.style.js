@@ -130,8 +130,9 @@ export const FooterLink = styled(Link)`
 
 export const FooterAnchor = styled.a`
   height: 48px;
-  display: contents;
+  width: 48px;
   @media only screen and (max-width: 600px) {
     height: 32px;
+    width: 32px;
   }
 `;
