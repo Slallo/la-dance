@@ -40,7 +40,7 @@ const Home = () => {
         <CTA>
           <Logo />
           <CTAText>
-            Direzione Artistica <br /> <strong>Vittoria Maria Maglione</strong>{" "}
+            Direzione Artistica <br /> <strong>Maria Vittoria Maglione</strong>{" "}
             e <strong>Caterina Ceravolo</strong>
           </CTAText>
           <CTARow>

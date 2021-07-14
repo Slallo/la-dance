@@ -49,7 +49,7 @@ const Footer = () => {
           <FooterInfo>
             <strong>Battipaglia</strong> 
             <br /> Piazza Ferrovia nr 12 <br />
-            Via Ugo Foscolo 34/36 <br /> Tel 320 7086606 - 338 1064846
+            Via Ugo Foscolo 34/36 <br /> Tel 0828 210155 - 338 1064846
           </FooterInfo>
         </FooterSectionLefted>
       </FooterRow>
