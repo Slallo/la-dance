@@ -30,7 +30,6 @@ const Footer = () => {
             >
               <Facebook />
             </FooterAnchor>
-
             <FooterAnchor
               href="https://www.instagram.com/ladance__/"
               noreferral
