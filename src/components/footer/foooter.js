@@ -37,8 +37,13 @@ const Footer = () => {
             >
               <Instagram />
             </FooterAnchor>
-            <Linkedin />
-            <Youtube />
+            <FooterAnchor href="#footer">
+              <Linkedin />
+            </FooterAnchor>
+            <FooterAnchor>
+              <Youtube href="#footer" />
+            </FooterAnchor>
+
             <FooterAnchor href="tel: 0828210155">
               <Phone />
             </FooterAnchor>
