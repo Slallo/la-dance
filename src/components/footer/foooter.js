@@ -37,13 +37,16 @@ const Footer = () => {
             >
               <Instagram />
             </FooterAnchor>
-            <FooterAnchor href="#footer">
-              <Linkedin />
+            <FooterAnchor
+              href="https://www.youtube.com/channel/UC5gu-tnmaes0NNWZRs0RrwQ/"
+              noreferral
+              target="_blank"
+            >
+              <Youtube />
             </FooterAnchor>
             <FooterAnchor>
               <Youtube href="#footer" />
             </FooterAnchor>
-
             <FooterAnchor href="tel: 0828210155">
               <Phone />
             </FooterAnchor>
@@ -60,7 +63,6 @@ const Footer = () => {
       </FooterRow>
       <FooterRow style={{ justifyContent: "space-around", marginTop: 50 }}>
         <FooterLink to="/transparency">Trasparenza</FooterLink>
-        <FooterLink>Privacy Policy</FooterLink>
       </FooterRow>
     </FooterWrapper>
   );
