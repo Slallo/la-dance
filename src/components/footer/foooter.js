@@ -11,7 +11,6 @@ import {
   Facebook,
   Instagram,
   Phone,
-  Linkedin,
   Youtube,
   FooterAnchor,
 } from "./footer.style";
