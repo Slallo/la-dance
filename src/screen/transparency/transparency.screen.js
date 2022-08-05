@@ -44,7 +44,7 @@ const Transparency = () => {
                 Regione Campania attività di promozione € 6.448,52
               </ListElement>
               <ListElement>
-                Regione Campania art.6 lettera H: € 10,083,23
+                Regione Campania art.6 lettera H: € 10.083,23
               </ListElement>
             </List>
           </Section>
@@ -73,6 +73,19 @@ const Transparency = () => {
               <ListElement>
                 Ministero dei Beni e delle Attività Culturali “Contributo fondo
                 emergenza COVID Danza” D.M. 8 dicembre 2020 € 10.000,00
+              </ListElement>
+            </List>
+          </Section>
+          <Divider />
+          <Section>
+            <PlusIcon />
+            <List>
+              CONTRIBUTO 2021
+              <ListElement>
+                Regione Campania art. 6 lettera G: € 9.738,01
+              </ListElement>
+              <ListElement>
+                Regione Campania art.8 prima istanza produzione: € 5.000,00
               </ListElement>
             </List>
           </Section>
