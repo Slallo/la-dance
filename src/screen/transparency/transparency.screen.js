@@ -101,6 +101,27 @@ const Transparency = () => {
           <Section>
             <PlusIcon />
             <List>
+              CONTRIBUTO 2022
+              <ListElement>
+                Regione Campania art. 6 lettera G: € 13.164,62
+              </ListElement>
+              <ListElement>
+                Regione Campania art.8 prima istanza produzione: € 5.469,71
+              </ListElement>
+            </List>
+          </Section>
+          <Divider />
+          <Section>
+            <PlusIcon />
+            <List>
+              CONSULENTI:
+              <ListElement>STUDIO DOTT. GIANLUCA SORRENTINO</ListElement>
+            </List>
+          </Section>
+          <Divider />
+          <Section>
+            <PlusIcon />
+            <List>
               CURRICULA:
               <ListElement>
                 <CurriculumLink
