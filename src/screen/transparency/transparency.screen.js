@@ -93,6 +93,32 @@ const Transparency = () => {
           <Section>
             <PlusIcon />
             <List>
+              CONTRIBUTO 2023
+              <ListElement>
+                Regione Campania istanza n.394 € 8.673,23
+              </ListElement>
+              <ListElement>
+                Regione Campania istanza n.393: €7.194,42
+              </ListElement>
+            </List>
+          </Section>
+          <Divider />
+          <Section>
+            <PlusIcon />
+            <List>
+              CONTRIBUTO 2024
+              <ListElement>
+                Regione Campania istana n.749: € 8.177,57
+              </ListElement>
+              <ListElement>
+                Regione Campania istanza n.744: € 4.666,57
+              </ListElement>
+            </List>
+          </Section>
+          <Divider />
+          <Section>
+            <PlusIcon />
+            <List>
               CONSULENTI:
               <ListElement>STUDIO DOTT. GIANLUCA SORRENTINO</ListElement>
             </List>
