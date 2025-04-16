@@ -145,6 +145,7 @@ const Transparency = () => {
               </ListElement>
             </List>
           </Section>
+          <Divider />
           <Section>
             <PlusIcon />
             <List>
